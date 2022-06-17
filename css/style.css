@@ -113,7 +113,7 @@ a{
     margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
+    grid-gap: 40px;
 }
 .text--medium{
     font-size: 16px;
@@ -149,6 +149,8 @@ a{
 }
 .content{
     margin: 20px;
+    /* para que todos tenham o mesmo tamanho: */
+    height: 100px;
 }
 .title{
     margin-bottom: 0;
